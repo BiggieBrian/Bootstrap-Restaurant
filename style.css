@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "angel";
+  src: url(/angel-flower/Angel\ Flower.otf);
+}
+#main {
+  min-height: 100vh;
+  background-image: url("/media/herobg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main-overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+nav {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  clip-path: inset();
+}
+nav * {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#logo h1 {
+  font-family: "angel";
+}
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+#about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-body {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+#aboutImg {
+  width: 40%;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+.about-text {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-text h1 {
+  font-family: "angel";
+}
+.about-text p {
+  font-size: 1rem;
+}
+#menu {
+  border-bottom: 1px solid whitesmoke;
+}
+
+#contact {
+  min-height: 100vh;
+  background-image: url("/media/herobg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contact-overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#form {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgb(20, 20, 20);
+}
+#modal-button {
+  color: white;
+  border: none;
+  width: 100%;
+}
+.modal-sub-btn {
+  background-color: black;
+  border: none;
+  width: 100%;
+  color: white;
+}
