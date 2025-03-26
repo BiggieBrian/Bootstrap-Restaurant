@@ -55,6 +55,27 @@ nav * {
   display: flex;
   align-items: center;
 }
+#map {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map-body {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+#map h1 {
+  font-family: "angel";
+}
+
+.map {
+  border: 10px solid wheat;
+  margin: 1rem;
+}
 #aboutImg {
   width: 40%;
   border-radius: 10px;
