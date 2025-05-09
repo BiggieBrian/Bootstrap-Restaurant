@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: "angel";
-  src: url(/angel-flower/Angel\ Flower.otf);
+  src: url(./angel-flower/Angel\ Flower.otf);
 }
 #main {
   min-height: 100vh;
-  background-image: url("/media/herobg.jpg");
+  background-image: url("./media/herobg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -97,7 +97,7 @@ nav * {
 
 #contact {
   min-height: 100vh;
-  background-image: url("/media/herobg.jpg");
+  background-image: url("./media/herobg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
